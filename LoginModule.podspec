@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
     'https': 'https://github.com/ljunb/multi-module.git'
   }
   spec.vendored_libraries = 'LoginModule.a'
-  spec.public_header = 'LoginModule.{h}'
+  spec.public_header_files = 'LoginModule.{h}'
   spec.source_files = 'LoginModule.{h}'
   spec.framework    = 'SystemConfiguration'
 end
